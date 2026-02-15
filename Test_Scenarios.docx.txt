@@ -1,0 +1,25 @@
+Login Test Scenarios
+
+1) Verify login with valid username and password
+
+2) Verify login with invalid password
+
+3) Verify login with invalid username
+
+4) Verify login with both invalid username and password
+
+5) Verify login with empty username field
+
+6) Verify login with empty password field
+
+7) Verify login with both fields empty
+
+8) Verify error message is displayed for invalid login
+
+9) Verify login button functionality
+
+10) Verify password field masks input characters
+
+11) Verify behavior when pressing Enter key instead of clicking Login
+
+12) Verify login page UI elements (logo, fields, buttons) are displayed correctly

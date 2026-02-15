@@ -1,0 +1,7 @@
+Modules in This Application
+
+1️) Login Module
+2️) Products Module
+3️) Cart Module
+4️) Checkout Module
+5️) Logout Module
