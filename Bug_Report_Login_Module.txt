@@ -1,0 +1,42 @@
+E-Commerce Web Application Testing — Bug Report
+Application: SauceDemo
+
+==============================
+LOGIN MODULE — DEFECT LOG
+==============================
+
+Bug ID: BUG_01
+Title: Locked user unable to login
+Module: Login
+
+Steps to Reproduce:
+1. Enter username: locked_out_user
+2. Enter password: secret_sauce
+3. Click Login
+
+Expected Result:User should login successfully
+
+Actual Result:Error message displayed indicating user is locked out
+
+Severity: High
+Priority: High
+Status: Open
+
+--------------------------------------------
+
+Bug ID: BUG_02
+Title: Error message displayed for empty fields
+Module: Login
+
+Steps to Reproduce:
+1. Leave username blank
+2. Leave password blank
+3. Click Login
+
+Expected Result:Proper validation message should appear
+
+Actual Result:Generic error message displayed
+
+Severity: Medium
+Priority: Medium
+Status: Open

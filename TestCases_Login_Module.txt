@@ -1,0 +1,55 @@
+E-Commerce Web Application Testing — Manual
+Application: SauceDemo (https://www.saucedemo.com/)
+
+==============================
+LOGIN MODULE — TEST CASES
+==============================
+
+Test Case ID: TC_LOGIN_01
+Scenario: Login with valid credentials
+
+Steps:
+1. Open SauceDemo website
+2. Enter username: standard_user
+3. Enter password: secret_sauce
+4. Click Login button
+
+Expected Result:User should be successfully logged in and redirected to Products page
+
+Actual Result:As Expected
+
+Status:Pass
+
+--------------------------------------------
+
+Test Case ID: TC_LOGIN_02
+Scenario: Login with invalid password
+
+Steps:
+1. Open website
+2. Enter username: standard_user
+3. Enter password: wrong_pass
+4. Click Login
+
+Expected Result:Error message should be displayed
+
+Actual Result:Error message displayed
+
+Status:Pass
+
+--------------------------------------------
+
+Test Case ID: TC_LOGIN_03
+Scenario: Login with empty fields
+
+Steps:
+1. Open website
+2. Leave username blank
+3. Leave password blank
+4. Click Login
+
+Expected Result:Validation error message should be displayed
+
+Actual Result:Error message displayed
+
+Status:Pass
