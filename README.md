@@ -2,6 +2,13 @@
 
 This project demonstrates end-to-end Manual Testing of an e-commerce web application using industry-standard testing practices.
 
+# How to View Files
+
+- Text (.txt) files can be viewed directly in browser
+- Excel (.xlsx) files contain detailed test documentation
+- This project demonstrates real manual testing artifacts
+
+
 ## Application Tested
 SauceDemo (https://www.saucedemo.com/)
 
@@ -37,3 +44,4 @@ SauceDemo (https://www.saucedemo.com/)
 ## Author
 
 Shivani Reddy Vajrala
+
